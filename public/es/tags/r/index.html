@@ -28,8 +28,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.5615a487fac507c43511df88c6ad42d8fd2f34979108ea0cb248cba1146fdcb8aad55e5fa3a2d69104e8e06875708d5c066abee2cf0d660691eb2f456d7d9f94.css"
-    integrity="sha512-VhWkh/rFB8Q1Ed&#43;Ixq1C2P0vNJeRCOoMskjLoRRv3Liq1V5fo6LWkQTo4Gh1cI1cBmq&#43;4s8NZgaR6y9FbX2flA==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.e57efc0d8b8e18176e98f691f1ec5ae781f97457ef87d10fd95799590d2b68029f9bf7ff648aa757e4a545f205659bb3e2f79f7758f217ce783fa2581dfb468d.css"
+    integrity="sha512-5X78DYuOGBdumPaR8exa54H5dFfvh9EP2VeZWQ0raAKfm/f/ZIqnV&#43;SlRfIFZZuz4vefd1jyF854P6JYHftGjQ==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -43,8 +43,11 @@
   
   
   
-  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.b36dda9ec4ec11e967fd341e7d57b8c484ac7a39f8f329f7bcf7ce4812569de8607db866a086d4789956ac0b74967e251c9a566d94d469dd28b8787fed4f46f5.js"
-    integrity="sha512-s23ansTsEeln/TQefVe4xISsejn48yn3vPfOSBJWnehgfbhmoIbUeJlWrAt0ln4lHJpWbZTUad0ouHh/7U9G9Q==" data-copy="" data-copied=""></script>
+  
+  
+  
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.d6c35110b5d7df8014403fbb81cd21a9d89daf9eb586c936e585e9d04adc204dce554aa737f81e8c902b9dea9e67bd63a977b77dedefb8a39430581ebc519207.js"
+    integrity="sha512-1sNRELXX34AUQD&#43;7gc0hqdidr561hsk25YXp0ErcIE3OVUqnN/gejJArneqeZ71jqXe3fe3vuKOUMFgevFGSBw==" data-copy="" data-copied=""></script>
   
   
   <script src="/js/zoom.min.js"></script>
@@ -130,7 +133,11 @@
   </div>
   
   
-  <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+  <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
     
     
@@ -148,7 +155,7 @@
             
             
             
-  <a href="jasvpj@gmail.com"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="mailto:jasvpj@gmail.com"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <span >
         
@@ -315,7 +322,7 @@
 
                     
   <li class="mt-1">
-    <a href="jasvpj@gmail.com"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="mailto:jasvpj@gmail.com"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <div >
             
@@ -366,6 +373,16 @@
 
 
 
+
+  </div>
+</div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
 
   
   <div class="relative flex flex-col grow">
@@ -428,53 +445,33 @@
 
   
 
-  <section class="space-y-10 w-full">
+  
+
+  
+  <h2 class="mt-12 mb-3 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+    2024
+  </h2>
+  <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
     
     
-    <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
-      2024
-    </h2>
+
+  <a href="/es/posts/mecanicas-basicas-de-r/" class="min-w-full">
     
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap article " href="/es/posts/mecanicas-basicas-de-r/">
-    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
         
-        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/es/posts/mecanicas-basicas-de-r/featured_huaa9c15f7093f6ba28318bcb5bb9069e5_226605_600x0_resize_box_3.png);"></div>
+        <div class="w-full thumbnail_card nozoom" style="background-image:url(/es/posts/mecanicas-basicas-de-r/featured_huaa9c15f7093f6ba28318bcb5bb9069e5_226605_600x0_resize_box_3.png);"></div>
         
-      <div class=" mt-3 md:mt-0">
-      <div class="items-center text-left text-xl font-semibold">
+      
+
+      <div class="px-6 py-4">
+
         
         <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
           href="/es/posts/mecanicas-basicas-de-r/">Mecanicas Basicas de R</div>
         
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
 
 
 
@@ -495,8 +492,6 @@
   
 
 
-
-  
 
 
 
@@ -513,7 +508,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-06-08 00:00:00 &#43;0000 UTC">8 junio 2024</time><span class="px-2 text-primary-500">&middot;</span><span>104 palabras</span><span class="px-2 text-primary-500">&middot;</span><span title="Tiempo de lectura">1 min</span>
+  <time datetime="2024-06-08 00:00:00 &#43;0000 UTC">8 junio 2024</time><span class="px-2 text-primary-500">&middot;</span><span>126 palabras</span>
   
 
   
@@ -521,56 +516,93 @@
 </div>
 
 
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
 
 
 
 
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/es/tags/principiante/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Principiante
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/es/tags/r/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    R
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+        </div>
+
+        
+        <div class="py-1 prose dark:prose-invert">
+          ¿Qué es R?
+        </div>
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
 
       </div>
-      
     </div>
   </a>
 
     
     
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap article " href="/es/posts/instalacion-de-r/">
+  <a href="/es/posts/instalacion-de-r/" class="min-w-full">
     
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
         
-        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/es/posts/instalacion-de-r/featured_hu31ee49f4c699eae8a5757544db4fa6be_120937_600x0_resize_box_3.png);"></div>
+        <div class="w-full thumbnail_card nozoom" style="background-image:url(/es/posts/instalacion-de-r/featured_hu31ee49f4c699eae8a5757544db4fa6be_120937_600x0_resize_box_3.png);"></div>
         
-      <div class=" mt-3 md:mt-0">
-      <div class="items-center text-left text-xl font-semibold">
+      
+
+      <div class="px-6 py-4">
+
         
         <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
           href="/es/posts/instalacion-de-r/">Instalacion de R</div>
         
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
 
 
 
@@ -591,8 +623,6 @@
   
 
 
-
-  
 
 
 
@@ -609,7 +639,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-06-08 00:00:00 &#43;0000 UTC">8 junio 2024</time><span class="px-2 text-primary-500">&middot;</span><span>213 palabras</span><span class="px-2 text-primary-500">&middot;</span><span title="Tiempo de lectura">1 min</span>
+  <time datetime="2024-06-08 00:00:00 &#43;0000 UTC">8 junio 2024</time><span class="px-2 text-primary-500">&middot;</span><span>213 palabras</span>
   
 
   
@@ -617,19 +647,78 @@
 </div>
 
 
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
 
 
 
 
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/es/tags/r/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    R
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/es/tags/tutorial/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Tutorial
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+        </div>
+
+        
+        <div class="py-1 prose dark:prose-invert">
+          Lo primero que tenemos que hacer es ir a la pagina de CRAN y seleccionar la descarga dependiendo nuestro sistema operativo.
+        </div>
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
 
       </div>
-      
     </div>
   </a>
 
     
-    
   </section>
+  
+
+  
 
   
 

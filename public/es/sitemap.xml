@@ -56,4 +56,16 @@
       href="http://localhost:4321/es/posts/1717970218854-prueba/"
     />
   </url>
+  <url>
+    <loc>http://localhost:4321/es/posts/instalacion-de-r/</loc>
+    <lastmod>2024-06-08T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:4321/es/posts/mecanicas-basicas-de-r/</loc>
+    <lastmod>2024-06-08T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
