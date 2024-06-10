@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Blowfish Template",
   "main": "index.js",
+  "public": true,
   "scripts": {
     "dev": "hugo server --minify -D -E -F"
   },

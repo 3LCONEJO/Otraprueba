@@ -3,18 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:7933/es/</loc>
+    <loc>http://localhost:4321/es/posts/</loc>
+    <lastmod>2024-06-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:7933/"
+      href="http://localhost:4321/posts/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:7933/es/"
+      href="http://localhost:4321/es/posts/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:4321/es/posts/1717970218854-prueba/</loc>
+    <lastmod>2024-06-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:4321/posts/1717970218854-prueba/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:4321/es/posts/1717970218854-prueba/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:4321/es/</loc>
+    <lastmod>2024-06-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:4321/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:4321/es/"
     />
   </url>
 </urlset>
