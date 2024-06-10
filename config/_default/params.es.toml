@@ -20,7 +20,7 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "page"
+layout = "card"
 showRecent = true
 showRecentItems = "6"
 showMoreLink = true
@@ -28,7 +28,7 @@ showMoreLinkDest = "posts"
 cardView = true
 cardViewScreenWidth = false
 layoutBackgroundBlur = true
-homepageImage = "BG.svg"
+homepageImage = "Logo.png"
 
 [article]
 showDate = true

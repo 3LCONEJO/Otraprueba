@@ -5,7 +5,7 @@
     <link>http://localhost:4321/series/</link>
     <description>Recent content in Series on VieRnes de Bioinformatica</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>es</language>
     <copyright>© 2024 Jorge Alfredo Suazo Victoria</copyright>
     <atom:link href="http://localhost:4321/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
