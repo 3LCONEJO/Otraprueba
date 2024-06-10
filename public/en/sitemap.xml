@@ -3,22 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:4321/</loc>
-    <lastmod>2024-06-09T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="http://localhost:4321/es/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:4321/"
-    />
-  </url>
-  <url>
     <loc>http://localhost:4321/posts/</loc>
     <lastmod>2024-06-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -48,6 +32,22 @@
       rel="alternate"
       hreflang="en"
       href="http://localhost:4321/posts/1717970218854-prueba/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:4321/</loc>
+    <lastmod>2024-06-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:4321/es/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:4321/"
     />
   </url>
 </urlset>

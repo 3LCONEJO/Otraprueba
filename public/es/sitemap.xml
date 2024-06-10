@@ -4,7 +4,7 @@
 
   <url>
     <loc>http://localhost:4321/es/posts/</loc>
-    <lastmod>2024-06-09T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -16,6 +16,28 @@
       rel="alternate"
       hreflang="es"
       href="http://localhost:4321/es/posts/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:4321/es/posts/1718042999830-prueba2/</loc>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:4321/es/</loc>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:4321/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:4321/es/"
     />
   </url>
   <url>
@@ -32,22 +54,6 @@
       rel="alternate"
       hreflang="es"
       href="http://localhost:4321/es/posts/1717970218854-prueba/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:4321/es/</loc>
-    <lastmod>2024-06-09T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:4321/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="http://localhost:4321/es/"
     />
   </url>
 </urlset>
