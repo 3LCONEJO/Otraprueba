@@ -3,7 +3,7 @@ none = "none"
 
 [[main]]
 pre = "email"
-url = "jasvpj@gmail.com"
+url = "mailto:jasvpj@gmail.com"
 identifier = "o2qDWq7SRB"
 weight = 9999
 
